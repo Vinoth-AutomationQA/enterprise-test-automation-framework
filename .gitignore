@@ -1,0 +1,75 @@
+# Compiled class files
+*.class
+target/
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+logs/
+
+# Test output
+test-output/
+reports/
+allure-results/
+allure-report/
+extent-reports/
+screenshots/
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+
+# Environment and secrets
+*.env
+secrets/
+.secrets/
+*-secrets.properties
+
+# WebDriver binaries
+drivers/
+*.exe
+*.dmg
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+.temp/
+
+# Node modules (if any JS tools used)
+node_modules/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Reports archive
+*.zip
+*.tar.gz
+
+# Database files
+*.db
+*.sqlite
+
+# Coverage reports
+*.exec
+jacoco/
